@@ -171,9 +171,9 @@ function App() {
                 </div>
               </div>
               <p className="text-gray-300">
-                Developed and optimized 250+ APIs for seamless system integration
-                Delivered scalable backend solutions to enhance performance and reliability
-                Collaborated with teams to ensure efficient data flow across platforms
+                <ul>Developed and optimized 250+ APIs for seamless system integration</ul>
+                <ul>Delivered scalable backend solutions to enhance performance and reliability</ul>
+                <ul>Collaborated with teams to ensure efficient data flow across platforms</ul>
               </p>
             </div>
             <div className="bg-[#1a0f0f] p-8 rounded-lg shadow-xl hover-scale animate-on-scroll">
