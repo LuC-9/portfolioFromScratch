@@ -123,14 +123,14 @@ function App() {
           <div className="relative w-32 h-32 mx-auto mb-6">
             <img
               id="hero-image"
-              src="https://avatars.githubusercontent.com/u/your-username"
+              src="https://avatars.githubusercontent.com/u/-username"
               alt="Profile"
               className="w-32 h-32 rounded-full absolute top-0 left-0 transition-transform duration-200"
               style={{ transformOrigin: 'center center' }}
             />
           </div>
-          <h1 className="text-5xl font-bold mb-4">Your Name</h1>
-          <p className="text-xl text-gray-400 mb-8">Software Engineer at Company</p>
+          <h1 className="text-5xl font-bold mb-4">Aarsh Mishra</h1>
+          <p className="text-xl text-gray-400 mb-8">Software Engineer</p>
           <div className="flex justify-center gap-4">
             <a href="#contact" className="px-6 py-3 bg-red-700 text-white rounded-md hover:bg-red-800 hover:scale-105 transition-all duration-200">
               Get in touch
@@ -148,7 +148,7 @@ function App() {
           <h2 className="text-3xl font-bold mb-12 text-center animate-on-scroll">About Me</h2>
           <div className="bg-[#1a0f0f] p-8 rounded-lg shadow-xl hover-scale animate-on-scroll">
             <p className="text-lg text-gray-300 mb-6">
-              I am a passionate Software Engineer currently working at Company, where I specialize in building robust and scalable applications. With experience in both frontend and backend development, I have developed a strong foundation in software development and a keen eye for creating efficient solutions.
+              I am a passionate Software Engineer currently working at Nagarro, where I specialize in building robust and scalable applications. With experience in both frontend and backend development, I have developed a strong foundation in software development and a keen eye for creating efficient solutions.
             </p>
             <p className="text-lg text-gray-300">
               My technical journey has equipped me with expertise in various technologies and frameworks, allowing me to tackle complex challenges and deliver high-quality results. I am constantly learning and staying updated with the latest industry trends.
@@ -166,12 +166,14 @@ function App() {
               <div className="flex items-center gap-4 mb-4">
                 <Briefcase className="w-8 h-8 text-red-500" />
                 <div>
-                  <h3 className="text-xl font-bold">Senior Software Engineer</h3>
-                  <p className="text-gray-400">Company • 2023 - Present</p>
+                  <h3 className="text-xl font-bold">Engineer</h3>
+                  <p className="text-gray-400">Nagarro • Jan- 204 - Present</p>
                 </div>
               </div>
               <p className="text-gray-300">
-                Led development of critical features for enterprise applications, mentored junior developers, and implemented best practices for code quality and performance. Improved system architecture resulting in 40% better performance.
+                Developed and optimized 250+ APIs for seamless system integration
+                Delivered scalable backend solutions to enhance performance and reliability
+                Collaborated with teams to ensure efficient data flow across platforms
               </p>
             </div>
             <div className="bg-[#1a0f0f] p-8 rounded-lg shadow-xl hover-scale animate-on-scroll">
@@ -313,7 +315,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-[#0a0404] py-6">
         <div className="max-w-6xl mx-auto px-6 text-center text-gray-400">
-          <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Aarsh. All rights reserved.</p>
         </div>
       </footer>
     </div>
